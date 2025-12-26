@@ -426,7 +426,7 @@ const createFloatingBtn = (href, text, icon, color, bottom) => {
 // Esperar a que cargue la página para mostrar los botones
 window.addEventListener('load', function() {
     setTimeout(function() {
-        const telegramBtn = createFloatingBtn('https://t.me/zGAT0', 'Telegram', '💬', 'linear-gradient(135deg, #58a6ff 0%, #7c3aed 100%)', '100px');
+        const telegramBtn = createFloatingBtn('https://t.me/zGatoO', 'Telegram', '💬', 'linear-gradient(135deg, #58a6ff 0%, #7c3aed 100%)', '100px');
         const whatsappBtn = createFloatingBtn('https://wa.me/51904225973', 'WhatsApp', '📱', 'linear-gradient(135deg, #25d366 0%, #128c7e 100%)', '30px');
         
         document.body.appendChild(telegramBtn);
@@ -435,5 +435,6 @@ window.addEventListener('load', function() {
 });
 
 // Console message
-console.log('%c zGAT0 - Servicios Profesionales ', 'background: #58a6ff; color: #0d1117; font-size: 18px; font-weight: bold; padding: 10px;');
-console.log('%c Contacto: @zGAT0 ', 'background: #7c3aed; color: #f0f6fc; font-size: 12px; padding: 5px;');
+console.log('%c zGatoO - Servicios Profesionales ', 'background: #58a6ff; color: #0d1117; font-size: 18px; font-weight: bold; padding: 10px;');
+console.log('%c Contacto: @zGatoO ', 'background: #7c3aed; color: #f0f6fc; font-size: 12px; padding: 5px;');
+
